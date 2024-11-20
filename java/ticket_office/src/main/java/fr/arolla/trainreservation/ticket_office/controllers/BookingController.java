@@ -21,7 +21,7 @@ public class BookingController {
   }
 
   @RequestMapping("/reserve")
-  BookingResponse reserve(@RequestBody BookingRequest bookingRequest) {
+  public BookingResponse reserve(@RequestBody BookingRequest bookingRequest) {
     var seatCount = bookingRequest.count();
     var trainId = bookingRequest.train_id();
 

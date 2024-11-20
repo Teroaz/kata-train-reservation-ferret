@@ -5,7 +5,10 @@ import fr.arolla.trainreservation.ticket_office.dtos.BookingRequest;
 import fr.arolla.trainreservation.ticket_office.dtos.BookingResponse;
 import fr.arolla.trainreservation.ticket_office.services.BookingService;
 import fr.arolla.trainreservation.ticket_office.controllers.BookingController;
+import org.jetbrains.annotations.NotNull;
 import org.junit.jupiter.api.Test;
+
+import java.util.Arrays;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
