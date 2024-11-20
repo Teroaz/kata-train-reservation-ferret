@@ -1,4 +1,4 @@
-package fr.arolla.trainreservation.ticket_office.controllers;
+package fr.arolla.trainreservation.ticket_office.dtos;
 
 import java.util.List;
 
